@@ -9,6 +9,7 @@ validar expiraciones, recuerda modificar [TokenService.js] para ésto.
 const moment = require('moment');
 const config = require('../KeyGenerator.Config/config');
 
+//Modificar según Necesidades:
 module.exports = {
   sub: "jtrujillo@2tec.cl", //Identificador Único
   IdUsuario: 452774, //Propiedad según necesidades
