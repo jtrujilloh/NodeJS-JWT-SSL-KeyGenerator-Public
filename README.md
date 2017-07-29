@@ -5,7 +5,7 @@ Aplicación NodeJS, que permite generar tokens para la validación de software, 
 Las Serial Key son generadas aplicando algoritmos de encriptación provenientes de:
 
 - Encriptación LVL1: jwt-simple (Configurable)
-- Certificado SSL RSA:2048Kb
+- Encriptación LVL2: Certificado SSL RSA:2048Kb
 
 - Ejecución mediante BAT File:
 ![alt text](https://github.com/jtrujilloh/NodeJS-JWT-SSL-KeyGenerator-Public/blob/master/000%20-%20Start.JPG)
