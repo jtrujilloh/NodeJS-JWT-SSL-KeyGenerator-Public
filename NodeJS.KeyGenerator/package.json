@@ -1,0 +1,19 @@
+{
+  "name": "NodeJS.JWT.KeyGenerator",
+  "version": "1.0.0",
+  "description": "NodeJS - JSON Web Token - Key Generator - Multipurpose",
+  "main": "KeyGenerator.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Jose Alfredo Trujillo Hidalgo",
+  "contact": "jtrujillo@2tec.cl",
+  "license": "MIT",
+  "pub": "28-07-2017",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "jwt-simple": "^0.5.1",
+    "moment": "^2.18.1"
+  }
+}
