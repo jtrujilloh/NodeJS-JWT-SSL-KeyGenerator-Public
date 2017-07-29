@@ -5,17 +5,14 @@ Aplicación NodeJS, que permite generar tokens para la validación de software, 
 - Ejecución mediante BAT File:
 ![alt text](https://github.com/jtrujilloh/NodeJS-JWT-SSL-KeyGenerator-Public/blob/master/000%20-%20Start.JPG)
 
-- DTO para Transportar Objeto JSON a Encriptar 1/4:
-![alt text]()
+- DTO para Transportar Objeto JSON a Encriptar 1/3:
+![alt text](https://github.com/jtrujilloh/NodeJS-JWT-SSL-KeyGenerator-Public/blob/master/008%20-%20DTO%20Transport.JPG)
 
-- DTO para Transportar Objeto JSON a Encriptar 2/4:
-![alt text]()
+- DTO para Transportar Objeto JSON a Encriptar 2/3:
+![alt text](https://github.com/jtrujilloh/NodeJS-JWT-SSL-KeyGenerator-Public/blob/master/009%20-%20DTO%20Transport.JPG)
 
-- DTO para Transportar Objeto JSON a Encriptar 3/4:
-![alt text]()
-
-- DTO para Transportar Objeto JSON a Encriptar 4/4:
-![alt text]()
+- DTO para Transportar Objeto JSON a Encriptar 3/3:
+![alt text](https://github.com/jtrujilloh/NodeJS-JWT-SSL-KeyGenerator-Public/blob/master/011%20-%20DTO%20Transport.JPG)
 
 - Ejecución 1/5:
 ![alt text](https://github.com/jtrujilloh/NodeJS-JWT-SSL-KeyGenerator-Public/blob/master/001%20-%20Excec.JPG)
