@@ -2,13 +2,40 @@
 
 Aplicación NodeJS, que permite generar tokens para la validación de software, éstos token's pueden ser utilizados para multiples propósitos, ejemplo: Claves de Activación, Seriales de Software, Llaves únicas, etc...
 
+- Ejecución mediante BAT File:
 ![alt text](https://github.com/jtrujilloh/NodeJS-JWT-SSL-KeyGenerator-Public/blob/master/000%20-%20Start.JPG)
+
+- DTO para Transportar Objeto JSON a Encriptar 1/4:
+![alt text]()
+
+- DTO para Transportar Objeto JSON a Encriptar 2/4:
+![alt text]()
+
+- DTO para Transportar Objeto JSON a Encriptar 3/4:
+![alt text]()
+
+- DTO para Transportar Objeto JSON a Encriptar 4/4:
+![alt text]()
+
+- Ejecución 1/5:
 ![alt text](https://github.com/jtrujilloh/NodeJS-JWT-SSL-KeyGenerator-Public/blob/master/001%20-%20Excec.JPG)
+
+- Ejecución 2/5:
 ![alt text](https://github.com/jtrujilloh/NodeJS-JWT-SSL-KeyGenerator-Public/blob/master/002%20-%20Excec.JPG)
+
+- Ejecución 3/5:
 ![alt text](https://github.com/jtrujilloh/NodeJS-JWT-SSL-KeyGenerator-Public/blob/master/003%20-%20Excec.JPG)
+
+- Ejecución 4/5:
 ![alt text](https://github.com/jtrujilloh/NodeJS-JWT-SSL-KeyGenerator-Public/blob/master/004%20-%20Excec.JPG)
+
+- Ejecución 5/5:
 ![alt text](https://github.com/jtrujilloh/NodeJS-JWT-SSL-KeyGenerator-Public/blob/master/005%20-%20Excec.JPG)
+
+- OpenSSL - Generación de Archivos de Certificado 1/2:
 ![alt text](https://github.com/jtrujilloh/NodeJS-JWT-SSL-KeyGenerator-Public/blob/master/006%20-%20PowerShell%20(x86).JPG)
+
+- OpenSSL - Generación de Archivos de Certificado 2/2:
 ![alt text](https://github.com/jtrujilloh/NodeJS-JWT-SSL-KeyGenerator-Public/blob/master/007%20-%20Claves%20y%20Certificados.JPG)
 
 - Esta versión utiliza JWT-Simple (Incluido en los Fuentes)
