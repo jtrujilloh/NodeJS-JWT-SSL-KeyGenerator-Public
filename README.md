@@ -1,5 +1,24 @@
 # NodeJS JWT SSL KeyGenerator Public
 
+Aplicación NodeJS, que permite generar tokens para la validación de software, éstos token's pueden ser utilizados para multiples propósitos, ejemplo: Claves de Activación, Seriales de Software, Llaves únicas, etc...
+
+![alt text](https://github.com/jtrujilloh/NodeJS-JWT-SSL-KeyGenerator-Public/blob/master/000%20-%20Start.JPG)
+![alt text](https://github.com/jtrujilloh/NodeJS-JWT-SSL-KeyGenerator-Public/blob/master/001%20-%20Excec.JPG)
+![alt text](https://github.com/jtrujilloh/NodeJS-JWT-SSL-KeyGenerator-Public/blob/master/002%20-%20Excec.JPG)
+![alt text](https://github.com/jtrujilloh/NodeJS-JWT-SSL-KeyGenerator-Public/blob/master/003%20-%20Excec.JPG)
+![alt text](https://github.com/jtrujilloh/NodeJS-JWT-SSL-KeyGenerator-Public/blob/master/004%20-%20Excec.JPG)
+![alt text](https://github.com/jtrujilloh/NodeJS-JWT-SSL-KeyGenerator-Public/blob/master/005%20-%20Excec.JPG)
+![alt text](https://github.com/jtrujilloh/NodeJS-JWT-SSL-KeyGenerator-Public/blob/master/006%20-%20PowerShell%20(x86).JPG)
+![alt text](https://github.com/jtrujilloh/NodeJS-JWT-SSL-KeyGenerator-Public/blob/master/007%20-%20Claves%20y%20Certificados.JPG)
+
+- Esta versión utiliza JWT-Simple (Incluido en los Fuentes)
+
+Para poder generar los archivos de certificado SSL, es necesario descargar e instalar la última versión de OpenSSL, desde su web Oficial:
+
+- Link: https://www.openssl.org/
+
+--------------------------------------------------------------------------------------------------
+
 Para generar los componentes de Certificado SSL, los comandos son los siguientes:
 
 - openssl req -new -newkey rsa:2048 -nodes -keyout serialkey-generator.key -out serialkey-generator.csr -config "C:\openssl-0.9.8h\openssl.cnf"
