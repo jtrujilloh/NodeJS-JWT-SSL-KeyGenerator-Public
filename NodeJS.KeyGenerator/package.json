@@ -9,7 +9,7 @@
   "keywords": [],
   "author": "Jose Alfredo Trujillo Hidalgo",
   "contact": "jtrujillo@2tec.cl",
-  "license": "MIT",
+  "license": "GPL-3.0",
   "pub": "28-07-2017",
   "dependencies": {
     "fs": "0.0.1-security",

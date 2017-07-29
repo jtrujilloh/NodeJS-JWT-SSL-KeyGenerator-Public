@@ -2,6 +2,11 @@
 
 Aplicación NodeJS, que permite generar tokens para la validación de software, éstos token's pueden ser utilizados para multiples propósitos, ejemplo: Claves de Activación, Seriales de Software, Llaves únicas, etc...
 
+Las Serial Key son generadas aplicando algoritmos de encriptación provenientes de:
+
+- Encriptación LVL1: jwt-simple (Configurable)
+- Certificado SSL RSA:2048Kb
+
 - Ejecución mediante BAT File:
 ![alt text](https://github.com/jtrujilloh/NodeJS-JWT-SSL-KeyGenerator-Public/blob/master/000%20-%20Start.JPG)
 
@@ -35,7 +40,7 @@ Aplicación NodeJS, que permite generar tokens para la validación de software, 
 - OpenSSL - Generación de Archivos de Certificado 2/2:
 ![alt text](https://github.com/jtrujilloh/NodeJS-JWT-SSL-KeyGenerator-Public/blob/master/007%20-%20Claves%20y%20Certificados.JPG)
 
-- Esta versión utiliza JWT-Simple (Incluido en los Fuentes)
+- Esta versión utiliza JWT-Simple (Incluido en los Fuentes) y Certificados SSL.
 
 Para poder generar los archivos de certificado SSL, es necesario descargar e instalar la última versión de OpenSSL, desde su web Oficial:
 
@@ -67,7 +72,7 @@ Ejemplo:
 
 - openssl x509 -req -days 365 -in serialkey-generator.csr -signkey serialkey-generator.key -out serialkey-generator.crt
 
-Ejemplo: 
+Ejemplo:
 
 	OpenSSL> x509 -req -days 365 -in serialkey-generator.csr -signkey serialkey-generator.key -out serialkey-generator.crt
 	Loading 'screen' into random state - done
